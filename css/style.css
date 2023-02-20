@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "TwitterChirp";
+    src: url("../fonts/chirp-regular-web.woff") format("woff2"),
+        url("../fonts/chirp-bold-web.woff") format("woff"),
+        url("../fonts/chirp-heavy-web.woff") format("woff");
+}
+
+/* html{
+    font-family: TwitterChirp, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: TwitterChirp, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root{
+    --twitter-theme-color: #50b7f5;
+    --twitter-background-color: #e6ecf0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    margin: auto;
+    padding: 0 10px;
+    max-width: 1300px;
+}
+
+nav {
+    flex: 0.2;
+    border-right: 1px solid var(--twitter-background-color);
+    min-width: 250px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav_logo{
+    width: 50px;
+    height: 30px;
+    color: var(--twitter-theme-color);
+    fill: currentColor;
+}
+
+.Menu_options{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+
+
